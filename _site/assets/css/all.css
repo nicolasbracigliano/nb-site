@@ -746,7 +746,7 @@ footer {
       -moz-order: 2;
       order: 2;
       -ms-flex-order: 2; }
-    .face-lockup [class^="icon-"].icon-browser {
+    .face-lockup [class^="icon-"].icon-code {
       -webkit-box-ordinal-group: 4;
       -moz-box-ordinal-group: 4;
       box-ordinal-group: 4;
@@ -754,7 +754,7 @@ footer {
       -moz-order: 4;
       order: 4;
       -ms-flex-order: 4; }
-    .face-lockup [class^="icon-"].icon-video {
+    .face-lockup [class^="icon-"].icon-browser {
       -webkit-box-ordinal-group: 5;
       -moz-box-ordinal-group: 5;
       box-ordinal-group: 5;
@@ -983,13 +983,15 @@ footer {
   .work-container h4 {
     margin-left: 60px; } }
 .section-clients {
-  position: relative; }
+  position: relative;
+  max-height: 650px; }
 
 .clients-belt {
   width: 100%;
   position: relative; }
   .clients-belt .client-unit {
     max-width: 750px;
+    min-height: 262px;
     margin: 50px auto;
     position: relative;
     z-index: 1;
@@ -1108,7 +1110,7 @@ footer {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    border: solid 2px #e5eaee;
+    border: solid 2px #ccc;
     margin: 0px 10px;
     cursor: pointer; }
     .clients-mobile-nav span.active-client {
@@ -1223,7 +1225,7 @@ footer {
   font-weight: 300;
   line-height: 1;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0px auto 100px; }
 
 form {
   max-width: 450px;
