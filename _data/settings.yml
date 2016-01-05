@@ -9,7 +9,7 @@ email: bracigliano@gmail.com
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
+# - {name: Work, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
@@ -42,21 +42,19 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Nicolas specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  **Nicolas enjoys creating beauty in the everyday things.** Since he was a child he felt special interest in the harmony of design, from the chords in a song to the colours in a picture. Motivated by this deep interest in design, without realizing it, he transformed his passion into his profession.
+  <em>The beauty blooms from inside of the source code.</em>
 
 
 skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
+- {name: Communication, value: '8'}
+- {name: Flexibility, value: '9'}
 - {name: Learning, value: '10'}
 - {name: Teaching, value: '6'}
 - {name: Planning, value: '7'}
 - {name: Visual Design, value: '5'}
 - {name: UX Design, value: '7'}
-- {name: Programming, value: '7'}
+- {name: Programming, value: '8'}
 
 
 #-------------------------------
@@ -77,15 +75,15 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'face-jaimee.jpg',
+- {avatar: 'face-jmathers.jpg',
   name: 'Jaimee Mathers',
   title: 'IT Support and Training Officer, Salisbury Library',
   quote: '<p><strong>Nicolas has the abiliy to communicate with a wide variety of individuals</strong> in a manner they understand - He is aware that some people may experience anxiety or stress during the learning process so is quite <strong>flexible and adaptable</strong> in his approach to training.</p>',
   logo: 'logo-cityofsalisbury.png'}
-- {avatar: 'face-santiagogarcia.jpg',
+- {avatar: 'face-sgarcia.jpg',
   name: 'Santinago Garcia',
   title: 'Solution Designer, Capgemini.',
-  quote: '<p><strong>Nicolas It is an excellent professional with a great adaptability and a high potential for demanding work.</strong> Always looking for challenges. He has proven to be proactive when solving problems. He is a responsible person who cares about achieving the goals that were set. He is always well-motivated and has a high self-esteem even in tense situations when working within a team.</p>',
+  quote: '<p><strong>Nicolas is an excellent professional with a great adaptability and a high potential for demanding work.</strong> Always looking for challenges. He has proven to be proactive when solving problems. He is a responsible person who cares about achieving the goals that were set. He is always well-motivated and has a high self-esteem even in tense situations when working within a team.</p>',
   logo: 'logo-capgemini.png'}
 
 
