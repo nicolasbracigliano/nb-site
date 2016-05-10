@@ -20,7 +20,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'nicolas bracigliano developer Designer melbourne australia front-end back-end'
+  description: 'nicolas bracigliano developer Designer melbourne australia front-end back-end c# buenos aires argentina thinker programmer'
   rel-author: 'https://plus.google.com/u/0/+nicolasbracigliano/'
   rel-publisher: 'https://plus.google.com/u/0/+nicolasbracigliano/'
 
@@ -52,7 +52,7 @@ skills:
 - {name: Learning, value: '10'}
 - {name: Teaching, value: '6'}
 - {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
+- {name: Visual Design, value: '8'}
 - {name: UX Design, value: '7'}
 - {name: Programming, value: '8'}
 
@@ -81,7 +81,7 @@ clients:
   quote: '<p><strong>Nicolas has the abiliy to communicate with a wide variety of individuals</strong> in a manner they understand - He is aware that some people may experience anxiety or stress during the learning process so is quite <strong>flexible and adaptable</strong> in his approach to training.</p>',
   logo: 'logo-cityofsalisbury.png'}
 - {avatar: 'face-sgarcia.jpg',
-  name: 'Santinago Garcia',
+  name: 'Santiago Garcia',
   title: 'Solution Designer, Capgemini.',
   quote: '<p><strong>Nicolas is an excellent professional with a great adaptability and a high potential for demanding work.</strong> Always looking for challenges. He has proven to be proactive when solving problems. He is a responsible person who cares about achieving the goals that were set. He is always well-motivated and has a high self-esteem even in tense situations when working within a team.</p>',
   logo: 'logo-capgemini.png'}
