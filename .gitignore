@@ -1,13 +1,12 @@
+# Created by https://www.gitignore.io/api/macos,sas,jekyll
 
-# Created by https://www.gitignore.io/api/sass,osx,jekyll
-
-### Sass ###
+### Jekyll ###
+_site/
 .sass-cache/
-*.css.map
+.jekyll-metadata
 
-
-### OSX ###
-.DS_Store
+### macOS ###
+*.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -25,6 +24,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -33,8 +33,20 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### SAS ###
+# Binary data formats
+.sas7baud
+.sas7bdat
+.sas7bvew
+.sas7bndx
+.sas7bcat
+.sas7bacs
+.sas7bfdb
+.sas7bmdb
+.sas7bdmd
+.sas7bitm
+.sas7butl
+.sas7bput
+.sas7bbak
 
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-metadata
+# End of https://www.gitignore.io/api/macos,sas,jekyll

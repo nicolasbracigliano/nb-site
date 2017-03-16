@@ -1,15 +1,22 @@
 header
+  position:relative
   @extend %background-image
   background:
-    position: 30px 20px, 50% 50%
-    image: url(../img/#{$logo-path}), url(../img/#{$headerpic-path})
-  padding-bottom: 50px
+    position: top center
+    image: url(../img/#{$headerpic-path})
+    size: auto 70%
+    // position: 30px 20px, 50% 50%
+    // image: url(../img/#{$logo-path}), url(../img/#{$headerpic-path})
+    attachment: fixed
+  padding-bottom: 130px
+  // background-blend-mode: hard-light
 
 
   .logo
     +size(50px)
     float: left
     margin: 10px 0 0 30px
+    position: absolute
 
     path
       fill: rgba(0,0,0,0.2)
@@ -22,11 +29,11 @@ header
       display: inline-block
       margin-left: 20px
 
-      color: rgba(0,0,0,0.7)
+      color: rgba(888, 888, 888,0.5)
       @extend %small-bold
 
       &:hover
-        color: rgba(0,0,0,1)
+        color: rgba(888,888,888,0.8)
 
   h1
     text-align: center
@@ -54,8 +61,10 @@ header
 
 @media (max-width: 640px)
   header
+    padding-bottom: 50px
     background:
       position: 50% 20px, 50% 50%
+      position: top center
 
     nav
       float: none

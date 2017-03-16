@@ -26,7 +26,6 @@
         max-width: 100px
         border-radius: 50%
 
-
       .client-name
         display: block
         text-transform: uppercase
@@ -46,8 +45,6 @@
       position: relative
 
 
-
-
 // Logos
 .clients-logos
   position: relative
@@ -57,7 +54,6 @@
   +display(flex)
   +align-items(flex-end)
   +justify-content(space-around)
-
 
   .client-logo
     cursor: pointer
@@ -70,7 +66,6 @@
       opacity: 1
       border-bottom: 4px solid $accent
 
-
 .client-quote-mark
   +position(absolute, -18px null null -15px)
   +size(60px)
@@ -79,7 +74,6 @@
 
   path
     fill: $accent
-
 
 
 // Controls
@@ -101,6 +95,7 @@
   .client-control-prev
     +position(absolute, 50% null null 10px)
 
+
 // clients-mobile-nav
 .clients-mobile-nav
   text-align: center
@@ -118,9 +113,6 @@
 
     &.active-client
       border-color: $accent
-
-
-
 
 @media (max-width: 850px)
   .clients-logos
@@ -152,7 +144,12 @@
   .clients-mobile-nav
     display: block
 
-
 @media (max-width: 600px)
   .client-controls
     display: none
+
+@media (max-width: 390px)
+  .client-content
+    p
+      font-size: 16px
+      line-height: 28px
